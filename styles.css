@@ -1,0 +1,105 @@
+*{
+  background-color:#DBF6F8;
+  text-align: center;
+}
+
+section{
+  height: 300px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  height: 175px;
+  border-bottom: solid purple;
+  width: 100vw;
+}
+
+#nav-bar {
+  display: flex;
+  /* position: absolute;  */
+   /* top: 0; */
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+nav > li > a {
+  text-decoration: none;
+  /* font-size: 30px; */
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: black;
+}
+
+Nav > li {
+  text-decoration: none;
+  list-style: georgian;
+}
+
+#header-img{
+  align-self: center;
+  overflow: hidden;
+  width: 200px;
+  height: 175px;
+}
+
+#promo-video {
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  border-bottom: purple solid;
+  padding: 25px 0 50px;
+
+}
+
+#video {
+  width: 80%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 700px;
+  /* width: 85vw; */
+  align-content: space-between;
+  padding: 25px;
+}
+
+.comments {
+  border: purple solid 2px;
+  /* box-shadow: ; */
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 10px 100px / 120px;
+  font-family: 'cursive', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+  width: 300px;
+}
+
+#join {
+  padding: 50px;
+}
+
+ul{
+}
+
+#join li {
+  padding: 5px 0;
+  list-style: none;
+  position: relative;
+  left: -25px;
+}
+
+@media screen {
+
+}
