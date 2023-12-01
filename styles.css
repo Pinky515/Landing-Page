@@ -90,7 +90,13 @@ p{
   padding: 50px;
 }
 
-ul{
+#contact-us h3 {
+  margin-top: 40px;
+}
+
+#contact-us ul{
+  display: flex;
+  flex-direction: column;
 }
 
 #join li {
