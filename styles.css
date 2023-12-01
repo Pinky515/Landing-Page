@@ -106,6 +106,43 @@ p{
   left: -25px;
 }
 
-@media screen {
+@media (max-width: 549px){
+  header {
+    position: static !important;
+  }
+
+  .hidden--mobile {
+      display: none !important;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      z-index: ;
+    }
+
+    nav > i {
+      padding: 1rem;
+      font-size: 2em;
+    }
+
+    nav > ul {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 0 0;
+    }
+
+    nav > ul > li {
+      padding: 0.5rem;
+      list-style-type: none;
+    }
+
+    nav > .fa-bars {
+      display: none;
+      align-content: flex-end;
+  }
 
 }
+
