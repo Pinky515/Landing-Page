@@ -26,7 +26,7 @@ header {
   width: 100vw;
 }
 
-nav > li > a {
+nav > ul > li > a {
   text-decoration: none;
   /* font-size: 30px; */
   font-weight: 800;
@@ -34,7 +34,7 @@ nav > li > a {
   color: black;
 }
 
-Nav > li {
+Nav > ul > li {
   text-decoration: none;
   list-style: georgian;
 }
@@ -60,7 +60,7 @@ Nav > li {
 #video {
   width: 80%;
   height: 100%;
-  overflow: hidden;
+  overflow: clip;
 }
 
 #reviews {
@@ -108,7 +108,7 @@ p{
 
 @media (max-width: 549px){
   header {
-    position: static !important;
+    position: static;
   }
 
   .hidden--mobile {
@@ -119,7 +119,7 @@ p{
       display: flex;
       align-items: center;
       flex-direction: column;
-      z-index: ;
+      /* z-index: 9999; */
     }
 
     nav > i {
@@ -142,7 +142,12 @@ p{
     nav > .fa-bars {
       display: none;
       align-content: flex-end;
-  }
+    }
+
+    #header-img {
+      align-content: center;
+    }
+
 
 }
 
