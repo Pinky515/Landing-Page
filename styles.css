@@ -23,7 +23,7 @@ header {
    /* top: 0; */
   align-items: center;
   justify-content: space-between;
-  width: 100vw;
+  width: 100%;
 }
 
 nav > ul > li > a {
@@ -34,10 +34,13 @@ nav > ul > li > a {
   color: black;
 }
 
-Nav > ul > li {
-  text-decoration: none;
+Nav > ul {
+  display: flex;
   list-style: georgian;
+  justify-content: space-around;
+  width: 100%;
 }
+
 
 #header-img{
   align-self: center;
@@ -57,19 +60,15 @@ Nav > ul > li {
 
 }
 
-#video {
-  width: 80%;
-  height: 100%;
-  overflow: clip;
-}
 
 #reviews {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   height: 700px;
   /* width: 85vw; */
-  align-content: space-between;
+  align-content: center;
   padding: 25px;
 }
 
@@ -141,7 +140,8 @@ p{
 
     nav > .fa-bars {
       display: none;
-      align-content: flex-end;
+      align-content: center;
+      width: 100%;
     }
 
     #header-img {
