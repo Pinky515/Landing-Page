@@ -41,6 +41,10 @@ Nav > ul {
   width: 100%;
 }
 
+.hidden--mobile{
+  list-style-type: none;
+}
+
 
 #header-img{
   align-self: center;
@@ -56,10 +60,8 @@ Nav > ul {
   overflow: hidden;
   flex-wrap: nowrap;
   border-bottom: purple solid;
-  padding: 25px 0 50px;
-
+  padding: 25px 0;
 }
-
 
 #reviews {
   display: flex;
