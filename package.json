@@ -2,6 +2,7 @@
   "name": "savvy-starter",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
     "parcel-build": "parcel build index.html && cp _redirects ./dist/",
     "serve": "parcel index.html"
@@ -19,6 +20,7 @@
   "dependencies": {
     "build": "^0.1.4",
     "html-literal": "^1.1.0",
+    "navigo": "^8.11.1",
     "parcel": "^2.11.0",
     "yargs-parser": ">=13.1.2"
   }
