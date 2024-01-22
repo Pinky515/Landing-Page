@@ -52,13 +52,17 @@ Nav > ul {
 }
 
 #promo-video {
-  display: flex;
-  justify-content: center;
+  border-bottom: solid purple;
+  flex-flow: column wrap;
+  place-content: center;
   height: 100%;
-  overflow: hidden;
-  flex-wrap: wrap;
-  border-bottom: purple solid;
   padding: 25px 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.title-text {
+  margin: 0 auto;
 }
 
 #reviews {
@@ -200,9 +204,51 @@ ul.hidden--mobile {
     }
 
     #header-img {
-      align-content: center;
-    }
+      width: 500px;
+  }
 
+  #join {
+    height: fit-content;
+    padding: 5px auto;  ;
+    margin: 0 auto;
+
+  }
+
+  .borders {
+    align-content: space-around;
+    height: 300px;
+    margin-top: 35px;
+    position: relative;
+    top: 100px;
+}
+
+.border {
+    transform: rotate(90deg);
+    width: 50px;
+    height: 95dvw;
+    position: relative;
+    left: 105px;
+}
+
+#contact-us h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.left {
+  position: relative;
+  top: 25px;
+}
+
+.right {
+  position: relative;
+  bottom: 75px;
+}
+
+.footer {
+  position: relative;
+  top: 150px;
+}
 
 }
 
