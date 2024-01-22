@@ -20,7 +20,7 @@ render();
 
 function afterRender(state) {
   document.querySelector(".fa-bars").addEventListener("click", () => {
-    document.querySelector("nav-bar ul").classList.toggle("hidden--mobile");
+    document.querySelector("nav > ul").classList.toggle("hidden--mobile");
   });
 }
 
